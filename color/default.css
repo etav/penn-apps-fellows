@@ -1,74 +1,81 @@
+p {
+	font-family:'lora,serif';
+}
+h1,h2,h3,h4,h5 {
+	font-family:'Oswald,sans-serif';
+	font-weight: 300;
+}
 a:hover,
 a:focus {
-    color: #3dc9b3;
+    color: #0ac92b;
 }
 
 #navigation {
-	border-top: 5px solid #3dc9b3;
+	border-top: 5px solid #0ac92b;
 }
 
 a,.tp-caption a.btn:hover {
-	color: #3dc9b3;
+	color: #0ac92b;
 }
 .top-nav-collapse {
-	background: #3dc9b3;
+	background: #0ac92b;
 }
 
 .carousel-indicators .active {
-    background-color: #3dc9b3;
+    background-color: #0ac92b;
 }
 
 .header-text h2 span {
-    background-color: #3dc9b3;
+    background-color: #0ac92b;
 }
 
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #3dc9b3;
+	color: #0ac92b;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #3dc9b3;
+    background-color: #0ac92b;
 }
 
 .widget-avatar .avatar:hover {
-    border: 5px solid #3dc9b3;
+    border: 5px solid #0ac92b;
 }
 
 .bg-skin {
-	background: #3dc9b3;
+	background: #0ac92b;
 }
 
 .highlight-color {
-	background-color: #3dc9b3;
+	background-color: #0ac92b;
 }
 
 .service-box:hover {
-	border-bottom: 2px solid #3dc9b3;
+	border-bottom: 2px solid #0ac92b;
 }
 
 
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #3dc9b3;
+	border-color: #0ac92b;
 }
 form.search-form input:focus {
-	border-color: #3dc9b3;
+	border-color: #0ac92b;
 }
 
 /* footer */
 ul.footer-menu li a:hover {
-	color: #3dc9b3;
+	color: #0ac92b;
 }
 
 footer a.totop:hover {
-	color: #3dc9b3;
+	color: #0ac92b;
 }
 
 
 .btn-skin {
   color: #fff;
-  background-color: #3dc9b3;
-  border-color: #3dc9b3;
+  background-color: #0ac92b;
+  border-color: #0ac92b;
 }

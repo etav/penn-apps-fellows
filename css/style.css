@@ -13,7 +13,7 @@ body {
     font-family: 'Ek Mukta', sans-serif;
 	font-weight: 300;
     color: #666;
-    background-color: #fff;
+    background-color: #f6f6f6;
 	font-size: 16px;
     line-height: 1.6em;
 	font-weight: 400;
@@ -393,16 +393,16 @@ hr.bold {
 /* --- section bg var --- */
 
 .bg-white {
-	background: #fff;
+	background: #f6f6f6;
 }
 
 .bg-gray {
-	background: #f9f9f9;
+	background: #f6f6f6;
 }
 
 
 .bg-dark {
-	background: #404040;
+	background: #f6f6f6;
 }
 
 /* --- section color var --- */
