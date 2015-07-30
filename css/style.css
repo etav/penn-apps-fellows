@@ -6,7 +6,6 @@
 	margin:0;
 }
 
-
 body {
     width: 100%;
     height: 100%;
@@ -30,6 +29,7 @@ h1 {
 }
 h2 {
 	font-size: 36px;
+	text-align: center;
 }
 h3 {
 	font-size: 32px;
@@ -103,6 +103,11 @@ p.lead {
 .highlight-color {
 	padding: 20px;
 	display: inline-block;
+}
+
+#sponsors img{
+    margin: auto;
+    width: 100%;
 }
 
 a {
@@ -891,6 +896,7 @@ footer .social-widget ul.team-social li a {
 
 a.btn:focus{
 	outline: 0;
+	border-radius: 1em;
 }
 
 .btn-red {
@@ -903,8 +909,8 @@ a.btn:focus{
 .btn-red:active,
 .btn-red.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  border-radius: 1em;
+  
 }
 .btn-red:active {
   background-image: none;
@@ -916,8 +922,7 @@ a.btn:focus{
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  border-radius: 1em;
 }
 
 
