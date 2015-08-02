@@ -296,7 +296,7 @@ blockquote strong {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;	
+	  border-radius: 0;
 	margin-top: 21px;
 	border-top: none;
 }
@@ -482,7 +482,7 @@ hr.bold {
 }
 
 .bg-gray {
-	background: #f6f6f6;
+	background: #A99999;
 }
 
 
@@ -559,9 +559,9 @@ hr.bold {
 	padding: 0;
 }
 
-.carousel-control .glyphicon-chevron-left, 
-.carousel-control .glyphicon-chevron-right, 
-.carousel-control .icon-prev, 
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-prev,
 .carousel-control .icon-next {
 	position: absolute;
 	top: 45%;
@@ -672,7 +672,7 @@ hr.bold {
 
 .service-icon {
 	margin-bottom: 20px;
-}	
+}
 
 .service-desc h5 {
 	text-transform: uppercase;
@@ -701,7 +701,7 @@ hr.bold {
     display: block;
     width: 100%;
     height: auto;
-}	
+}
 
 /* ===========================
 --- Contact
@@ -765,7 +765,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 
-.box-social .social-facebook a { 
+.box-social .social-facebook a {
 	display: block;
 	background: #3873ae;
 }
@@ -881,7 +881,7 @@ footer {
 footer {
 	text-align: center;
 	padding: 50px 0 30px ;
-	
+
 }
 
 footer p {
@@ -965,7 +965,7 @@ footer .social-widget ul.team-social li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 400;	
+	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 14px;
 }
@@ -990,7 +990,7 @@ a.btn:focus{
 .btn-red.active {
   color: #fff;
   border-radius: 1em;
-  
+
 }
 .btn-red:active {
   background-image: none;
@@ -1055,7 +1055,7 @@ a.btn:focus{
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-	
+
     .intro {
         height: 100%;
         padding: 0;
@@ -1064,7 +1064,7 @@ a.btn:focus{
     .brand-heading {
         font-size: 100px;
     }
-	
+
 
     .intro-text {
         font-size: 25px;
@@ -1094,29 +1094,29 @@ a.btn:focus{
 	.navbar-header button {
 		background: #111;
 	}
-	
+
 	.navbar-header button.navbar-toggle {
 		padding: 4px 15px;
 		font-size: 14px;
 		color: #fff;
 	}
-	
+
 	.navbar-custom .nav {
 		background: #444;
 	}
-	
+
 	.service-box {
 		margin-bottom: 50px;
 	}
-	
+
 	.team-wrap {
 		margin-bottom: 30px;
 	}
-	
+
 	form#contact-form {
 		margin-bottom: 50px;
 	}
-	
+
 	.xs-marginbot-20 {
 		margin-bottom: 20px;
 	}
@@ -1128,8 +1128,90 @@ a.btn:focus{
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
-	
+
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
 }
+
+/**
+ * 	CSS3 Only Horizontal and Vertical Accordion
+ * 	Author: Paul Underwood for Hongkiat.com
+ *  Website: www.paulund.co.uk
+ *  Date: 27/11/11
+ *  Version: 1.0
+ */
+
+/*Define Accordion box*/
+.accordion { width:830px; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; }
+
+/*General Accordion****************************************************************************/
+/*Set style of open slide*/
+.accordion section:target { background:#FFF; padding:10px;}
+.accordion section:target:hover { background:#FFF; }
+.accordion section:target h2 {width:100%;}
+.accordion section:target h2 a{ color:#333; padding:0;}
+.accordion section:target p {display:block;}
+.accordion section h2 a{padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
+
+/*set style of closed slide*/
+.accordion section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
+.accordion section:hover {background:#444;}
+.accordion section p { display:none; }
+.accordion section:after{position:relative;font-size:24px;color:#000;font-weight:bold;}
+/*.accordion section:nth-child(1):after{content:'1';}
+.accordion section:nth-child(2):after{content:'2';}
+.accordion section:nth-child(3):after{content:'3';}
+.accordion section:nth-child(4):after{content:'4';}
+.accordion section:nth-child(5):after{content:'5';}*/
+/*End General Accordion****************************************************************************/
+
+/*Horizontal Accordion *********************************************************************/
+.horizontal section{ width:5%; height:225px;
+	-moz-transition:width 0.2s ease-out;
+	-webkit-transition:width 0.2s ease-out;
+  	-o-transition:width 0.2s ease-out;
+	-ms-transition:width 0.2s ease-out;
+  	transition:width 0.2s ease-out;
+}
+
+/*Position the number of the slide*/
+.horizontal section:after{top:140px;left:15px;}
+
+/*Header of closed slide*/
+.horizontal section h2 {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	width:240px; position:relative; left:-100px; top:85px;
+}
+
+/*On mouse over open slide*/
+.horizontal :target{ width:73%;height:230px; }
+.horizontal :target h2{ top:0px;left:0;
+	-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+/*End Horizontal Accordion *********************************************************************/
+
+/*Vertical Accordion *************************************************************************/
+.vertical section{ width:100%; height:40px;
+	-webkit-transition:height 0.2s ease-out;
+	-moz-transition:height 0.2s ease-out;
+  	-o-transition:height 0.2s ease-out;
+	-ms-transition:height 0.2s ease-out;
+  	transition:height 0.2s ease-out;
+}
+/*Set height of the slide*/
+.vertical :target{ height:250px; width:97%; }
+
+.vertical section h2 { position:relative; left:0; top:-15px; }
+
+/*Set position of the number on the slide*/
+.vertical section:after{ top:-60px;left:810px;}
+.vertical section:target:after{ left:-9999px;}
