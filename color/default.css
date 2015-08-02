@@ -11,7 +11,7 @@ a:focus {
 }
 
 #navigation {
-	border-top: 5px solid #0ac92b;
+	border-top: 5px solid rgb(144, 144, 144);
 }
 
 a,.tp-caption a.btn:hover {
