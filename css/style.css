@@ -1,7 +1,7 @@
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700,600');
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700');
 @import url('http://fonts.googleapis.com/css?family=Raleway:400,700')
 *{
 	padding:0;
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    font-family: 'Open+Sans', sans-serif;
+    font-family: 'Anonymous+Pro', sans-serif;
     font-weight: 700;
 	color: #111;
 }
@@ -63,11 +63,11 @@ h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
 }
 
 h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
@@ -278,6 +278,7 @@ blockquote strong {
 
 .nav.navbar-nav {
     background-color: none;
+	padding: 0px;
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -512,7 +513,7 @@ hr.bold {
 --- Intro
 ============================ */
 
-.hero { background: url(../img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
+.hero { background: url("https://www.youtube.com/embed/4u0-JGXaGq4?rel=0&amp;controls=0&amp;showinfo=0") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 0px 0 200px 0; margin-bottom:350px; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
@@ -1048,7 +1049,7 @@ a.btn:focus{
 @media(min-width:767px) {
 
     .navbar {
-        padding: 20px 0;
+        padding: 0px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: rgba(10, 201, 43,.9);
@@ -1083,7 +1084,7 @@ a.btn:focus{
 
 }
 @media (max-width:768px) {
-	
+
 	#navigation {
 		padding: 20px 0;
 	}
@@ -1290,13 +1291,13 @@ a.btn:focus{
 .accordion section:target h2 {width:100%;}
 .accordion section:target h2 a{ color:#333; padding:0;}
 .accordion section:target p {display:block;}
-.accordion section h2 a{padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
+.accordion section h2 a {padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
 
 /*set style of closed slide*/
 .accordion section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
 .accordion section:hover {background:#444;}
 .accordion section p { display:none; }
-.accordion section:after{position:relative;font-size:24px;color:#000;font-weight:bold;}
+.accordion section:after {position:relative;font-size:24px;color:#000;font-weight:bold;}
 /*.accordion section:nth-child(1):after{content:'1';}
 .accordion section:nth-child(2):after{content:'2';}
 .accordion section:nth-child(3):after{content:'3';}
